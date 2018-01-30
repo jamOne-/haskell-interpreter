@@ -8,8 +8,8 @@
     "build": "npm run build-server && npm run parcel:b",
     "build-server": "cd server && tsc",
     "tsc:w": "cd server && tsc --watch",
-    "parcel": "parcel .\\client\\src\\index.html --out-dir dist\\public\\",
-    "parcel:b": "parcel build .\\client\\src\\index.html --out-dir dist\\public\\"
+    "parcel": "parcel ./client/src/index.html --out-dir dist/public/",
+    "parcel:b": "parcel build ./client/src/index.html --out-dir dist/public/"
   },
   "author": "",
   "license": "ISC",
