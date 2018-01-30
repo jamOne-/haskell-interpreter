@@ -9,6 +9,6 @@ export function runJuRaCode(id: string, code: string, callback: (err: Error, std
       console.log('an error ocurred when writing file for user of id:', id);
     }
 
-    childProcess.exec(`racket ../../run.rkt ${programPath}`, callback);
+    childProcess.exec(`racket ../../interpreter/run.rkt ${programPath}`, callback);
   });
 }

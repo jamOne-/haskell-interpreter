@@ -4,5 +4,8 @@
   "scripts": {
     "postinstall": "npm install --prefix page",
     "heroku-postbuild": "npm run build --prefix page"
+  },
+  "engines": {
+    "node": "8.2.1"
   }
 }

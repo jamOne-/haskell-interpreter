@@ -19,6 +19,7 @@
     "@types/socket.io": "^1.4.31",
     "@types/socket.io-client": "^1.4.32",
     "express": "^4.16.2",
+    "parcel-bundler": "^1.5.1",
     "reset-css": "^2.2.1",
     "socket.io": "^2.0.4",
     "typescript": "^2.6.2"
